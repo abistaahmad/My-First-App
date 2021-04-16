@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FoodDetail"
+    android:orientation="vertical"
+    android:weightSum="100">
+
+    <ImageView
+        android:id="@+id/img_detail_food"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="85"
+        android:scaleType="centerCrop"
+        android:src="@drawable/telur_ceplok"/>
+
+    <TextView
+        android:id="@+id/text_name_food"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Nama Makanan"/>
+
+    <TextView
+        android:id="@+id/text_detail_food"
+        android:layout_width="340dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginTop="5dp"
+        android:textAlignment="center"
+        android:lineSpacingExtra="10dp"
+        android:text="Detail Makanan Detail Makanan Detail Makanan Detail Makanan "/>
+
+    <Button
+        android:id="@+id/btn_like"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Sukai"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:textAllCaps="false"/>
+
+</LinearLayout>
